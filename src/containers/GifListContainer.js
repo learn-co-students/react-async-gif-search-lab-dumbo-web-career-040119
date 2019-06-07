@@ -11,7 +11,7 @@ class GifListContainer extends React.Component {
   }
 
   render() {
-    console.log("I'm flattered you're checking out my github! If you're page does not compile, you need to create an account on giphy and get your own api_key 🤷‍  pssst please stay safe and mask your api_key!")
+    console.log("I'm flattered you're checking out my github! If your page does not compile, you need to create an account on giphy and get your own api_key 🤷‍  pssst please stay safe and mask your api_key!")
     return (
       <div>
          <GifSearch fetchGifs={this.fetchGifs} />
